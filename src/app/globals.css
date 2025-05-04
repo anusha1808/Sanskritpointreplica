@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light mode defaults */
+body {
+  @apply bg-white text-gray-900;
+}
+
+/* Dark mode support using class strategy */
+html.dark body {
+  @apply bg-gray-900 text-white;
+}
