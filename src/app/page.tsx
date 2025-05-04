@@ -1,7 +1,6 @@
 // app/page.tsx
 import Rating from './components/Rating';
 import ProductCard from './components/ProductCard';
-import Founders from './components/Founders';
 import HeroSection from './components/HeroSection';
 import Connect from './components/Connect';
 
