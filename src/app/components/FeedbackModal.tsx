@@ -29,7 +29,7 @@ export default function FeedbackModal() {
               ✖
             </button>
             <h2 className="text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">
-              We'd love your feedback!
+               We&apos;d love your feedback!
             </h2>
             <textarea
               value={feedback}
